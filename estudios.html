@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi página web | Mis estudios</title>
+  <link rel="icon" type="image/png" href="images/logo-jrd.png">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="cabecera">
+    <a class="marca" href="inicio.html"><img src="images/logo-jrd.png"><span>Estudios</span></a>
+    <nav class="navegacion" aria-label="Navegación principal"><a href="inicio.html">Inicio</a><a href="centro.html">Centro</a><a class="activo" href="estudios.html">Mis estudios</a></nav>
+  </header>
+
+  <main class="estudios-main">
+    <section class="intro-estudios"><h1>Mis estudios</h1><p>En esta página explico lo que he aprendido en el ciclo de Desarrollo de Aplicaciones Web, los módulos que he cursado y los proyectos que he realizado.</p></section>
+
+    <!-- CSS Grid distribuye los módulos en dos columnas en pantallas grandes. -->
+    <section class="modulos-grid" aria-label="Módulos estudiados">
+      <article class="modulo"><h2>Programación</h2><p>Aprender a crear programas y resolver problemas mediante código.</p></article>
+      <article class="modulo"><h2>Lenguaje de marcas</h2><p>Cómo utilizar sistemas de etiquetas como HTML y CSS para estructurar, organizar, intercambiar y presentar páginas web.</p></article>
+      <article class="modulo"><h2>Bases de datos</h2><p>Organizar información y aprender a trabajar con bases de datos.</p></article>
+      <article class="modulo"><h2>Sistemas informáticos</h2><p>Conocer sistemas operativos, redes y herramientas informáticas.</p></article>
+    </section>
+
+    <section class="proyectos panel-azul">
+      <h2>Proyectos</h2>
+      <div class="proyectos-grid">
+        <article class="proyecto"><img src="images/dado.png"><p>Dado aleatorio con PHP</p></article>
+        <article class="proyecto"><img src="images/web-proyecto.png"><p>Páginas web con HTML y CSS</p></article>
+        <article class="proyecto"><img src="images/calculadora.png"><p>Calculadora con JS</p></article>
+        <article class="proyecto"><img src="images/maquina-virtual.png"><p>Máquinas virtuales: Ubuntu, Windows</p></article>
+      </div>
+    </section>
+  </main>
+  <footer class="pie-pagina"><img src="images/logo-jrd.png"><div><span>Aitor Jurado Osco</span><span>IES Tetuán de las Victorias</span><span>2026-2027</span></div></footer>
+</body>
+</html>
