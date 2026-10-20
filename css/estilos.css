@@ -93,34 +93,4 @@ h2 { font-size: clamp(1.7rem, 2.7vw, 2.65rem); margin-bottom: 20px; }
 .pie-pagina img { width: 44px; height: 44px; object-fit: contain; }
 .pie-pagina div { display: flex; align-items: center; justify-content: flex-end; gap: 28px; }
 
-@media (max-width: 900px) {
-  .cabecera { flex-wrap: wrap; }
-  .navegacion { gap: 24px; }
-  .inicio-columnas { grid-template-columns: 1fr; }
-  .intro-centro { gap: 25px; }
-  .tarjeta-centro { flex-basis: 100%; }
-  .proyectos-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .pie-pagina div { gap: 12px; flex-wrap: wrap; }
-}
-@media (max-width: 600px) {
-  body { font-size: 16px; }
-  .cabecera { justify-content: center; padding: 12px 5%; }
-  .marca { width: 100%; justify-content: center; }
-  .navegacion { width: 100%; justify-content: center; gap: 18px; font-size: .95rem; }
-  .inicio-main, .centro-main, .estudios-main { width: 92%; margin-top: 20px; }
-  .presentacion { flex-direction: column; align-items: flex-start; padding: 25px; gap: 20px; }
-  .imagen-presentacion { width: 100%; height: auto; max-height: 200px; object-fit: contain; }
-  .experiencia, .favicon-info { padding: 22px; }
-  .intro-centro { flex-direction: column; align-items: stretch; margin: 0 0 25px; }
-  .intro-centro img { width: 100%; max-height: 220px; }
-  .tarjetas-centro { gap: 20px; }
-  .tarjeta-centro { flex-direction: column; padding: 22px; }
-  .tarjeta-centro img { width: 100%; max-height: 180px; }
-  .modulos-grid { grid-template-columns: 1fr; gap: 20px; }
-  .intro-estudios { margin: 0 0 25px; }
-  .proyectos { padding: 20px; }
-  .proyectos-grid { grid-template-columns: 1fr 1fr; gap: 22px 14px; }
-  .proyecto img { width: 100%; height: 130px; }
-  .pie-pagina { flex-direction: column; padding: 14px; }
-  .pie-pagina div { justify-content: center; text-align: center; flex-direction: column; gap: 5px; }
 }
